@@ -56,7 +56,7 @@ bool splitArray(int *input, int size) {
 	return isSplitPossible(input, size, 0, 0, 0);
 }
 
-void problem3(){
+int main(){
     int size;
 	cin>>size;
 	int *input=new int[1+size];	
